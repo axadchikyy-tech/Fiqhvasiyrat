@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message
 from aiogram.filters import Command
 
-TOKEN = "SIZNING_BOT_TOKENINGIZ"
+TOKEN = "9047682926:AAHF8vw81f-Qvda5lnPYSxNB45P7bRiNQYA"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -129,7 +129,6 @@ async def start_namoz_quiz(message: Message):
 
 async def main():
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
-    print("Бот ишга тушди...")
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
